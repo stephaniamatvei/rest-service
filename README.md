@@ -2,7 +2,6 @@
 
 ### About
 
-----
 A simple service that manages the employees of a company. 
 - Employee objects are stored in a (**H2 in-memory**) **database**
 - The objects are accessed by declaring the ```EmployeeRepository``` interface which extends **Spring Data JPA**'s ```JPARepository```
@@ -10,12 +9,10 @@ A simple service that manages the employees of a company.
 
 ### Why REST?
 
-----
 REST has quickly become the de-facto standard for building web services on the web because they’re easy to build and easy to consume.
 
 ### What benefits?
 
-----
 The web and its core protocol, HTTP, provide a stack of features:
 - Suitable actions (GET, POST, PUT, DELETE, …​)
 - Caching
