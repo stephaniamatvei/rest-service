@@ -4,12 +4,14 @@
 
 A simple service that manages the employees of a company. 
 - Employee objects are stored in a (**H2 in-memory**) **database**
-- The objects are accessed by declaring the ```EmployeeRepository``` interface which extends **Spring Data JPA**'s ```JPARepository```
+- The objects are accessed by declaring the ```EmployeeRepository``` interface which extends **Spring Data JPA**'s ```JPARepository```, specifying the domain type as ```Employee``` and the id type as ```Long```
 - To allow the access over the internet, everything is wrapped with the **Spring MVC layer**
 
 ## Why REST?
 
 REST has quickly become the de-facto standard for building web services on the web because they’re easy to build and easy to consume.
+
+REST is a collection of architectural constraints that when adopted make your application much more resilient. A key factor of resilience is that when you make upgrades to your services, your clients don’t suffer from downtime.
 
 ## What benefits?
 
