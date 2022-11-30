@@ -41,7 +41,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- HATEOAS is for upgrading our service to being RESTful -->
+        <!-- HATEOAS is for upgrading our service to being RESTful (it helps you write hypermedia-driven outputs) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-hateoas</artifactId>
